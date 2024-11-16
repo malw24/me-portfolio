@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #aaa;
+
+}
+
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  
+
+  .title {
+    margin: 0 1rem;
+  }
+}
+
+.logo a {
+  .logotype {
+    width: 125px;
+  }
+}
+
+.nav a {
+  font-size: 3rem;
+}

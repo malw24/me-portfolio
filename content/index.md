@@ -1,6 +1,6 @@
 ---
 Title: Home
-Description: This is our index page.
+Description: This is the index page.
 ---
 
 Om mig
@@ -13,7 +13,7 @@ Om mig
 Mitt namn är Max Lindgren och jag är 33 år gammal. Född och uppväxt i Göteborg.  
 Efter skolan, vid 19 års ålder, började jag arbeta på lager som mottagare av företagets gods och produkter i några år.  
 En dag behövde inköpsavdelningen hjälp av någon som kunde produkterna och inte långt efter hade jag en fast position där.  
-Några år senare uppstod samma scenario uppstod, fast för säljavdelningen, och vips så jobbade jag på den avdelningen istället.  
+Några år senare uppstod samma scenario, fast för säljavdelningen, och vips så jobbade jag på den avdelningen istället.  
 I början av året bestämde jag mig för att jag var nöjd efter cirka 12 år på företaget och bestämde mig för att utbilda mig till något.
 
 

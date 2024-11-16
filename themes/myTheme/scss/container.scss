@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, rgb(228, 253, 252), rgb(195, 255, 252));
+}
+
+
+.main {
+  flex: 1 0 auto;
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 64rem;
+  padding: 2rem;
+  margin: 0 auto;
+
+  img {
+    max-width: 400px;
+    border-radius: 20px;
+  }
+    
+}
+
+@media (max-width: 1088px) {
+  .main {
+    width: 80%;
+    overflow: auto;
+
+    ul {
+      width: 80%;
+    }
+
+    code {
+      margin: 0;
+      padding: 0;
+      display: block;
+      overflow-x: auto;
+    }
+       
+    img {
+      width: 80%;
+      border-radius: 20px;
+    }
+  }
+  
+}
+

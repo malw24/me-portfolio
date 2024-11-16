@@ -6427,37 +6427,66 @@ body {
   font-family: "Geist Mono", monospace;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
 }
 
-.header {
-  background-color: #faa;
+.main {
+  flex: 1 0 auto;
+}
+
+.header, .footer {
+  flex: 0 0 auto;
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   max-width: 64rem;
   padding: 2rem;
-  background-color: #afa;
   margin: 0 auto;
-  align-items: center;
 }
 .main img {
-  max-width: 400px;
-  border-radius: 20px;
+  max-width: 500px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #aaa;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header .logo a .logotype {
+  width: 125px;
+}
+.site-header .title {
+  margin: 0 1rem;
+}
+
+.nav a {
+  font-size: 3rem;
 }
 
 .footer {
   display: flex;
-  flex: row;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-  background-color: #aaf;
+  background-color: #333;
   color: white;
 }
 .footer .social a {

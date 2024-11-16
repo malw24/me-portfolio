@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #aaf;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.social {
+  a {
+    text-decoration: none;
+    font-size: 3rem;
+    color: #fff;
+  }
+}
+
+@media (max-width: 440px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+}
+

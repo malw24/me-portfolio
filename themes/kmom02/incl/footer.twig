@@ -1,7 +1,7 @@
 <div class="footer">
     <div>
         <p>
-            Ad astra per aspera.
+            Här kommer det snart hända grejer!
         </p>
     </div>
     <div class="social">
@@ -9,13 +9,8 @@
         {% for social in pages["_meta"].meta.social %}
         <a href="{{ social.url }}" title="{{ social.title }}" role="button">
             <i class="{{ social.icon }}" aria-hidden="true"></i>
-            
+            <i class="{{ school.icon }}" aria-hidden="true"></i>
             <span class="sr-only">{{ social.title }}</span>
-        </a>
-        <a href="{{ social.url2 }}" title="{{ social.title2 }}" role="button">
-            <i class="{{ social.icon2 }}" aria-hidden="true"></i>
-            
-            <span class="sr-only">{{ social.title2 }}</span>
         </a>
         {% endfor %}
     </div>
@@ -24,6 +19,3 @@
 <script src="{{ theme_url }}/../shared//js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>
 <script src="{{ theme_url }}/../shared//js/utils.js" type="text/javascript"></script>
 <script src="{{ theme_url }}/../shared//js/responsive-navbar.js" type="text/javascript"></script>
-
-
-
