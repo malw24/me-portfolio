@@ -75,7 +75,7 @@
 
 @media (max-width: 1095px) {
   .landing-page {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
 
     h1 {
       grid-column: span 1; 
