@@ -18,6 +18,7 @@
   text-decoration: none;
   color: #000;
   text-align: center;
+  justify-self: center;
 }
 
 
@@ -37,16 +38,11 @@
 }
 
 .a.sqlite {
-  display: grid;
   grid-column: span 3;
 }
-
 .box.sqlite {
-  grid-column: span 3;
   justify-self: center;
-  width: 100%;
 }
-
 
 .technology {
   display: flex;
