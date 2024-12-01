@@ -1,4 +1,4 @@
-$theme: 'light' !default;
+$theme: 'dark';
 
 @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
@@ -10,7 +10,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables-dark';
 @import 'typography';
 @import 'container';
 @import 'header';
@@ -19,4 +19,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 
 @import 'technology';
-@import 'analysis';
+
+
+
+/*.main {
+    background-color: yellow;
+}
+*/

@@ -1,0 +1,23 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="landing-page">
+            {{ content }}
+
+            {% for kmom in meta.kmoms %}
+                <a class="a {{ kmom.class }}" href="{{ base_url }}/analysis/{{ kmom.class }}">
+                <div class="box {{ kmom.class }}">
+                    <h2> {{kmom.name}} </h2>
+                </div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

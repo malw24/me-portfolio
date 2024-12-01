@@ -6,7 +6,9 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to right, rgb(228, 253, 252), rgb(195, 255, 252));
+  color: $main-font-color;
+  font-weight: $main-font-weight;
+  background-color: $main-background-color;
 }
 
 
@@ -26,13 +28,25 @@ body {
   max-width: 64rem;
   padding: 2rem;
   margin: 0 auto;
+  background-color: $main-background-color;
 
   img {
     max-width: 400px;
     border-radius: 20px;
   }
+
+  a {
+    color: $main-a-color;
+  }
+
+  .website-image {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
     
 }
+
 
 @media (max-width: 1088px) {
   .main {

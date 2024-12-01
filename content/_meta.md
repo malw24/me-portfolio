@@ -8,4 +8,10 @@ Social:
       title2: Googla något!
       url2: https://google.se
       icon2: fa fa-search
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
