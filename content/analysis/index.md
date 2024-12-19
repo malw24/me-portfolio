@@ -4,11 +4,11 @@ Description: This is my analysis page.
 Template: analysis
 kmoms:
     - name: Kmom04
-      class: kmom04
+      class: 01_colors
     - name: Kmom05
-      class: kmom05
+      class: 02_load
     - name: Kmom06
-      class: kmom06
+      class: 03_design_principles
 ---
 
 

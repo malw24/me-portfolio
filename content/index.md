@@ -6,8 +6,8 @@ Description: This is the index page.
 Om mig
 ==========================
 
+<img class="presentation-img" src="image/samurai.png" alt="Mig som Samurai"/>
 
-![Mig som samurai](image/samurai.png)  
   
 
 Mitt namn är Max Lindgren och jag är 33 år gammal. Född och uppväxt i Göteborg.  

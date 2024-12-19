@@ -1,6 +1,6 @@
 ---
 Title: Kmom04
-Description: This is my colors page.
+Description: This is my kmom04 page.
 ---
 
 Kmom04
