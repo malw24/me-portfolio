@@ -92,7 +92,7 @@ Galleri
     
 </div>
 <div class="embed-container">
-        <iframe src="https://www.youtube.com/embed/yMPJRe2qTlI?si=kpA0BDcyOYhV28oc" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/yMPJRe2qTlI?si=kpA0BDcyOYhV28oc" frameborder="0" title="Japan Youtube Video" allowfullscreen></iframe>
 </div>
 
   <!-- <picture>

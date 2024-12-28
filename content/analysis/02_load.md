@@ -6,7 +6,7 @@ Description: This is my colors page.
 Kmom05
 =======================
 
-## Analys och jämförelse av tre olika hemsidors laddningstid och användbarhet
+
 
 ## Urval
 
@@ -21,14 +21,14 @@ Den andra hemsidan är Pepsi, vald för att undersöka hur en stor företagshems
 <picture>
     <source media="(min-width: 668px)" srcset="%base_url%/image/pepsi.png?save-as=jpg">
     <source media="(min-width: 376px)" srcset="%base_url%/image/pepsi.png?save-as=jpg&w=350&q=80&crop-to-fit">
-    <img src="%base_url%/image/pepsi.jpg" alt="Aftonbladet">
+    <img src="%base_url%/image/pepsi.jpg" alt="Pepsi">
 </picture>
 
 Den tredje hemsidan jag har valt är Apotekets hemsida, främst för att det är en "shoppinghemsida" med hög trafik.
 <picture>
     <source media="(min-width: 668px)" srcset="%base_url%/image/apoteket.png?save-as=jpg">
     <source media="(min-width: 376px)" srcset="%base_url%/image/apoteket.png?save-as=jpg&w=350&q=80&crop-to-fit">
-    <img src="%base_url%/image/apoteket.jpg" alt="Aftonbladet">
+    <img src="%base_url%/image/apoteket.jpg" alt="Apoteket">
 </picture>
 
 ## Metod
@@ -37,7 +37,7 @@ Jag använder Google Chrome för att jämföra laddningstiderna för de olika he
 
 ## Resultat
 
-<iframe class="spreedsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTjSS-ciYFZ1fZBmW_Ga86646fxeSrA1LUcTbGsVgvtAba20NEp3NVm9dWJN3iR3nvTuMAOjVSIa09f/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe class="spreadsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTjSS-ciYFZ1fZBmW_Ga86646fxeSrA1LUcTbGsVgvtAba20NEp3NVm9dWJN3iR3nvTuMAOjVSIa09f/pubhtml?widget=true&amp;headers=false" title="spreadsheet"></iframe>
 
 
 

@@ -6,7 +6,7 @@ Description: This is my kmom04 page.
 Kmom04
 =======================
 
-### Analys och jämförelse av tre olika hemsidors färgval och typsnitt
+
 Jag ska analysera och jämföra färgval och typsnitt på tre olika hemsidor. De hemsidor jag har valt ligger mig varmt om hjärtat.  
 
 Urval
